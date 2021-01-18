@@ -95,15 +95,25 @@ There are 5 deliverables for this project:
 3. Feature ranking with recursive feature elimination
 4. Fit Initial Model
 5. Test Initial Model
+
             - train test split
+            
 6. Validate Initial Model
+
             - RMSE
+            
             - Evaluating the effect of train-test split size
+            
 7. Additional assessment:
+
             - Recheck for multicollinearity
+            
             - Recheck for normality
+            
             - Recheck for homoscedasticity
+            
             - k-fold cross validation
+            
             - Bias-variance tradeoff
             
 ### Model Refinement I:             
