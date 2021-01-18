@@ -5,27 +5,27 @@ This project was completed as part of Flatiron School's Data Science Bootcamp (N
 
 In this report, we will investigate factors associated with home properties. This report gives a comprehensive evaluation on factors influencing the value of a home such as:
 
-* **id** - unique identified for a house
-* **dateDate** - house was sold
-* **pricePrice** -  is prediction target
-* **bedroomsNumber** -  of Bedrooms/House
-* **bathroomsNumber** -  of bathrooms/bedrooms
-* **sqft_livingsquare** -  footage of the home
-* **sqft_lotsquare** -  footage of the lot
-* **floorsTotal** -  floors (levels) in house
+* **id** - Unique identified for a house
+* **date** - Date house was sold
+* **price** - Price is prediction target
+* **bedrooms** - Number of Bedrooms/House
+* **bathrooms** - Number of bathrooms/bedrooms
+* **sqft_living** - Square footage of the home
+* **sqft_lot** - Square footage of the lot
+* **floors** - Total floors (levels) in house
 * **waterfront** - House which has a view to a waterfront
 * **view** - Has been viewed
 * **condition** - How good the condition is ( Overall )
 * **grade** - overall grade given to the housing unit, based on King County grading system
-* **sqft_above** - square footage of house apart from basement
-* **sqft_basement** - square footage of the basement
+* **sqft_above** - Square footage of house apart from basement
+* **sqft_basement** - Aquare footage of the basement
 * **yr_built** - Built Year
 * **yr_renovated** - Year when house was renovated
-* **zipcode** - zip
+* **zipcode** - Zipcode
 * **lat** - Latitude coordinate
 * **long** - Longitude coordinate
-* **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
-* **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
+* **sqft_living15** - Square footage of interior housing living space for the nearest 15 neighbors
+* **sqft_lot15** - Square footage of the land lots of the nearest 15 neighbors
 
 Housing price ranges are of great interest for both buyers and sellers. After initial EDA to understand the dataset, house prices will be predicted given features of residential houses. The goal of this project is to create a regression model that are able to accurately estimate the price of the house given the features. The business statements are formulated based on these attributes.
 
