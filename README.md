@@ -66,5 +66,23 @@ There are 5 deliverables for this project:
 5. A Video Walkthrough of my non-technical presentation, can be found at:
 
 # **Notebook Table of Contents**
-## Initial Model: Perform Stepwise Selection and use all features that were selected
+
+## Part I: Data Scrubbing and Preparation
+
+### Methodology:
+
+1. Casting columns to the appropriate data types
+2. Identifying and dealing with null and duplicated values appropriately
+3. Removing columns that aren't required for modeling
+4. Checking for normality with distplot, qqplot
+5. Checking for linearity with boxplot, correlation coefficient
+6. Removing outliers that are more than 3 standard deviation away from the mean
+7. Checking for and dealing with multicollinearity with heatmap
+8. Select potential features for modeling
+9. Normalizing the continuous
+10. One hot encoding categorical data
+
+## Part II: Machine Learning
+
+### Initial Model: Perform Stepwise Selection and use all features that were selected
 'grade', 'water_1.0', 'zip_A', 'zip_C', 'sqft_above', 'sqft_basement', 'zip_B', 'sqft_living15', 'cond_3.0', 'zip_G', 'bedrooms', 'floors_2.0', 'zip_F', 'cond_5.0', 'zip_E', 'zip_I', 'floors_1.5', 'floors_2.5', 'floors_3.0', 'bathrooms'
