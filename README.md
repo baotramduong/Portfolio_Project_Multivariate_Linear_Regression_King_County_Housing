@@ -18,7 +18,7 @@ In this report, we will investigate factors associated with home properties. Thi
 * **condition** - How good the condition is ( Overall )
 * **grade** - overall grade given to the housing unit, based on King County grading system
 * **sqft_above** - Square footage of house apart from basement
-* **sqft_basement** - Aquare footage of the basement
+* **sqft_basement** - Square footage of the basement
 * **yr_built** - Built Year
 * **yr_renovated** - Year when house was renovated
 * **zipcode** - Zipcode
