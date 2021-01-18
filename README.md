@@ -79,8 +79,8 @@ There are 5 deliverables for this project:
 6. Removing outliers that are more than 3 standard deviation away from the mean
 7. Checking for and dealing with multicollinearity with heatmap
 8. Select potential features for modeling
-9. Normalizing the continuous
-10. One hot encoding categorical data
+9. Normalizing the continuous variables
+10. One hot encoding categorical variables
 
 ## Part II: Machine Learning
 
