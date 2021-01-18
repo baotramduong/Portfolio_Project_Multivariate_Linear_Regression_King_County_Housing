@@ -84,5 +84,36 @@ There are 5 deliverables for this project:
 
 ## Part II: Machine Learning
 
-### Initial Model: Perform Stepwise Selection and use all features that were selected
-'grade', 'water_1.0', 'zip_A', 'zip_C', 'sqft_above', 'sqft_basement', 'zip_B', 'sqft_living15', 'cond_3.0', 'zip_G', 'bedrooms', 'floors_2.0', 'zip_F', 'cond_5.0', 'zip_E', 'zip_I', 'floors_1.5', 'floors_2.5', 'floors_3.0', 'bathrooms'
+### Initial Model: 
+
+1. Perform Stepwise Selection and use all features that were selected (20):
+
+            - 'grade', 'water_1.0', 'zip_A', 'zip_C', 'sqft_above', 'sqft_basement', 'zip_B', 'sqft_living15', 'cond_3.0', 'zip_G', 'bedrooms', 'floors_2.0',
+            'zip_F', 'cond_5.0', 'zip_E', 'zip_I', 'floors_1.5', 'floors_2.5', 'floors_3.0', 'bathrooms'
+            
+2. Build Initial Model with the chosen features with Statsmodels
+3. Feature ranking with recursive feature elimination
+4. Fit Initial Model
+5. Test Initial Model
+            - train test split
+6. Validate Initial Model
+            - RMSE
+            - Evaluating the effect of train-test split size
+7. Additional assessment:
+            - Recheck for multicollinearity
+            - Recheck for normality
+            - Recheck for homoscedasticity
+            - k-fold cross validation
+            - Bias-variance tradeoff
+            
+### Model Refinement I:             
+
+### Model Refinement II:   
+
+## Summary of Findings
+
+## Summary of Actionable Insights
+
+Results suggest that the following factors can be used to predict the value of the house:
+
+##  Future Works
