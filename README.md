@@ -95,11 +95,11 @@ There are 5 deliverables for this project:
 3. Feature ranking with recursive feature elimination
 4. Fit Initial Model
 5. Test Initial Model
-
-            - train test split
             
 6. Validate Initial Model
 
+            - train test split
+            
             - RMSE
             
             - Evaluating the effect of train-test split size
