@@ -33,7 +33,7 @@ In this report, we will investigate factors associated with home properties. Thi
 * **sqft_living15** - Square footage of interior housing living space for the nearest 15 neighbors
 * **sqft_lot15** - Square footage of the land lots of the nearest 15 neighbors
 
-Housing price ranges are of great interest for both buyers and sellers. After initial EDA to understand the dataset, house prices will be predicted given features of residential houses. The goal of this project is to create a regression model that are able to accurately estimate the price of the house given the features. The business statements are formulated based on these attributes.
+After initial EDA to understand the dataset, house prices will be predicted given features of residential houses. The business statements are formulated based on these attributes.
 
 ## Business Statement
 
