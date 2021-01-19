@@ -54,7 +54,7 @@ There are 5 deliverables for this project:
 
             - Part I: Data cleaning & preparation from provided data
             
-            - Part II: Machine Learning with various models
+            - Part II: Machine Learning with various models refinements
             
 2. An organized README.md file that describes the contents of the repository.
 
