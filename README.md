@@ -139,9 +139,9 @@ There are 5 deliverables for this project:
 |1     |Model 2|Log(y) + All features + Log + location|19.0        |0.7226247743093053|73.30382551258425|P                |P        |P               |-0.27987216185176883|
 |2     |Model 3|Log(y) + All features + Log + Recursive Feature Ranking|10.0        |0.7226247743093053|73.30382551258425|P                |P        |P               |-0.28873308214221904|
 |3     |Model 4|Log(y) + All features + Log + Interactions|24.0        |0.7738199360010017|78.35181714237666|P                |P        |P               |-0.22926817679652234|
-|4     |Model 5|Log(y) + All features + Log + Interactions + Poly|28.0        |0.7597763001594978|77.0    |P                |P        |P               |-0.24344834501143783|
+|4     |Model 5|Log(y) + All features + Log + Interactions + Polynomial Regression|28.0        |0.7597763001594978|77.0    |P                |P        |P               |-0.24344834501143783|
 
-**BEST MODEL:** MODEL 4
+## **BEST MODEL:** MODEL 4
 
 ## Summary of Findings
 
