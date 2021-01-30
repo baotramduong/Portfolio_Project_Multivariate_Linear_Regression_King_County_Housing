@@ -37,15 +37,15 @@ After initial EDA to understand the dataset, house prices will be predicted give
 
 ## Business Statement
 
-**Q1.** 
+**Q1. What features adds value to a home?** 
 
-**Q2.** 
+**Q2. What features decreases value of a home?** 
 
-**Q3.** 
+**Q3. What features are nice to have but have no effect on the values of a home?** 
 
-**Q4.** 
+**Q4. How does location affect the price of a home?** 
 
-**Q5.** 
+**Q5. What are the most predictive features to predict the price of a home?** 
 
 ## The Deliverables
 There are 5 deliverables for this project:
