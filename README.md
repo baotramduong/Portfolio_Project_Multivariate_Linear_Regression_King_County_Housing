@@ -147,6 +147,8 @@ There are 5 deliverables for this project:
 
 ### **'sqft_living'**
 
+![alt text](../main/Data & Figures/sqft_living_vs_price_lmplot.png?raw=true)
+
             * 'sqft_living' is strongly & positively correlated with target 'price'.
             * The higher the square footage of living space, the higher the price.
             * 4,500 sqft guarantees above price median.
