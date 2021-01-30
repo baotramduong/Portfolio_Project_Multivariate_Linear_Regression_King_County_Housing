@@ -1,0 +1,5 @@
+,Model,Description, Num Features,r2,Accuracy,Multicollinearity,Normality,Homoscedasticity,Cross Validation
+0,Model A,All features,19.0,0.668176586782782,66.23671804132353,P,F,F,-0.33676896902113007
+1,Model B,"All features, outliers removed, RFE",13.0,0.6458048738484066,64.22113748678501,P,F,F,-0.2887121181852722
+2,Model C,All features + Polynomial Regression,19.0,0.6198535778967182,67.0,P,F,F,-0.3864108608759032
+3,Model D,All features + Log,18.0,0.6168320844440425,59.185617618792065,P,F,F,-0.3872608258439014
