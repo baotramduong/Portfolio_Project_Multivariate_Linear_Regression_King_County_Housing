@@ -101,8 +101,8 @@ There are 5 deliverables for this project:
 1. Perform Stepwise Selection to select for features with p-value < 0.05
             
 2. Build Model with the chosen features with Statsmodels
-3. Fit Initial Model
-4. Test Initial Model
+3. Fit Model
+4. Test Model
 
             - Recheck for multicollinearity
             
@@ -114,15 +114,15 @@ There are 5 deliverables for this project:
             
             - Bias-variance tradeoff
             
-5. Validate Initial Model
+5. Validate Model
 
-            - train test split
+            - train-test split
             
             - Calculate accuracy percentage
                        
 ### Models Summary:  
 
-**Failed Models**
+**Failed Models:**
 
 |      |Model  |Description                        |Num Features|r2                |Accuracy|Multicollinearity|Normality|Homoscedasticity|Cross Validation    |
 |------|-------|-----------------------------------|------------|------------------|--------|-----------------|---------|----------------|--------------------|
@@ -131,7 +131,7 @@ There are 5 deliverables for this project:
 |2     |Model C|All features + Polynomial Regression|19.0        |0.6198535778967182|67.0    |P                |F        |F               |-0.3864108608759032 |
 |3     |Model D|All features + Log                 |18.0        |0.6168320844440425|59.185617618792065|P                |F        |F               |-0.3872608258439014 |
 
-**Passed Models**
+**Passed Models:**
 
 |FIELD1|Model  |Description                        |Num Features|r2                |Accuracy|Multicollinearity|Normality|Homoscedasticity|Cross Validation    |
 |------|-------|-----------------------------------|------------|------------------|--------|-----------------|---------|----------------|--------------------|
@@ -140,6 +140,8 @@ There are 5 deliverables for this project:
 |2     |Model 3|Log(y) + All features + Log + Recursive Feature Ranking|10.0        |0.7226247743093053|73.30382551258425|P                |P        |P               |-0.28873308214221904|
 |3     |Model 4|Log(y) + All features + Log + Interactions|24.0        |0.7738199360010017|78.35181714237666|P                |P        |P               |-0.22926817679652234|
 |4     |Model 5|Log(y) + All features + Log + Interactions + Poly|28.0        |0.7597763001594978|77.0    |P                |P        |P               |-0.24344834501143783|
+
+**BEST MODEL:** MODEL 4
 
 ## Summary of Findings
 
