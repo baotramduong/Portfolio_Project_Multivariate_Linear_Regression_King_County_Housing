@@ -147,7 +147,7 @@ There are 5 deliverables for this project:
 
 ### **'sqft_living'**
 
-![alt text](../main/Data & Figures/sqft_living_vs_price_lmplot.png)
+<img src = '../main/Data & Figures/sqft_living_vs_price_lmplot.png' />
 
             * 'sqft_living' is strongly & positively correlated with target 'price'.
             * The higher the square footage of living space, the higher the price.
@@ -155,16 +155,22 @@ There are 5 deliverables for this project:
 
 ### **'sqft_lot'**
 
+<img src = '../main/Data & Figures/sqft_lot_vs_price_lmplot.png' />
+
             * 'sqft_lot' ranges from 520 - 1,625,359 sqft with majority of houses <50,000 sqft_lot
             * 'sqft_lot' is weakly & positively correlated to 'price'
             * Higher 'sqft_lot' does not equal to higher price
 
 ### **'sqft_above'**
 
+<img src = '../main/Data & Figures/sqft_above_vs_price_lmplot.png' />
+
             * 'sqft_above' is strongly & positively correlated to 'price'
             * The higher the 'sqft_above' the higher the price
 
 ### **'basement'**
+
+<img src = '../main/Data & Figures/basement_vs_price_catplot.png' />
 
             * There are more houses without a basement than with a basement.
             * The presence of a basement increases the price of a house but not always: there are houses without a basement still make to Above Median price and there are houses with a basement stay behind in Below Median price.
@@ -172,11 +178,17 @@ There are 5 deliverables for this project:
 
 ### **'sqft_living15'**
 
+<img src = '../main/Data & Figures/sqft_living15_vs_price_lmplot.png' />
+
             * 'sqft_living15' is strongly & positively correlated with 'price'.
             * The higher the square footage of the nearest 15 neighbor houses, the higher the price for a house.
             * This demonstrates that neighborhood/location is a value-adding feature when predict the price of a home.
 
 ### **'bedrooms'**
+
+<img src = '../main/Data & Figures/bedrooms_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/bedrooms_vs_price_sqft_living_relplot.png' />
 
             * 'bedrooms' is positively correlated with 'price'.
             * Higher number of bedrooms stops mattering if 'sqft_living' or 'sqft_above' is small.
@@ -186,12 +198,20 @@ There are 5 deliverables for this project:
 
 ### **'bathrooms'**
 
+<img src = '../main/Data & Figures/bathrooms_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/bathrooms_vs_price_sqft_living_relplot.png' />
+
             * 'bathrooms' is highly and positively correlated with 'price'
             * Higher number of bathrooms does not matter if 'sqft_living' or 'sqft_above' is low
             * Too many bathrooms crowding square footage of the home will have less value.
             * 'Penalty' of having too many 'bathrooms' is less severe than having too many 'bedrooms'
 
 ### **'grade'**
+
+<img src = '../main/Data & Figures/grade_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/grade_vs_price_sqft_living_relplot.png' />
 
             * 'grade' is strongly and positively correlated with 'price'.
             * The higher the grade, the higher the value of a home.
@@ -201,6 +221,10 @@ There are 5 deliverables for this project:
 
 ### **'floors'**
 
+<img src = '../main/Data & Figures/floors_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/floors_vs_price_sqft_living_relplot.png' />
+
             * 'floors' is positively correlated to 'price'.
             * Higher number of floors can add value to houses that have smaller square footage.
             * Higher number of floors doesn't add more value to houses that have big square footage.
@@ -209,10 +233,20 @@ There are 5 deliverables for this project:
 
 ### **'waterfront'**
 
+<img src = '../main/Data & Figures/waterfront_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/waterfront_vs_price_catplot.png' />
+
             * 'waterfront' is positively correlated to 'price'.
             * There are houses without a waterfront make it into Above Median price but with waterfront, a house is guaranteed to be Above Median.
 
 ### **'condition'**
+
+<img src = '../main/Data & Figures/condition_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/condition_vs_price_sqft_living_relplot.png' />
+
+<img src = '../main/Data & Figures/condition_vs_price_grade_relplot.png' />
 
             * 'condition' is weakly and positively correlated to 'price'.
             * 'condition' of at least 3 is needed to raise value of a home.
@@ -220,6 +254,12 @@ There are 5 deliverables for this project:
             * High 'grade' does not matter if 'condition' is low.
 
 ### **'age'**
+
+<img src = '../main/Data & Figures/age_vs_price_sqft_living_relplot.png' />
+
+<img src = '../main/Data & Figures/age_vs_price_grade_relplot.png' />
+
+<img src = '../main/Data & Figures/age_vs_price_condition_relplot.png' />
 
             * 'age' is negatively correlated with 'price'.
             * The higher the 'age', the lower the 'price'.
@@ -232,11 +272,17 @@ There are 5 deliverables for this project:
 
 ### **'renovation'**
 
+<img src = '../main/Data & Figures/renovation_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/age_vs_price_renovation_relplot.png' />
+
             * Renovation is weakly and positively correlated with 'price'.
             * There are houses without renovation is still Above Median price and there are houses with renovation is still Below Median price.
             * Older houses tend to have renovation done. This explains why some older houses are scored high in 'grade' and 'condition'
 
 ### **'zipcode'**
+
+<img src = '../main/Data & Figures/location_vs_price_scatterplot.png' />
 
             * We see that properties that are 1.6M+ are clustered and increase in price as they go toward the center. 
             * The yellow region of C which includes Bellevue, Mercer Island, Newcastle is the region with the highest values. 
