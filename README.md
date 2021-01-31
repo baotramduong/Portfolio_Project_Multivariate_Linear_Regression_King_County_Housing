@@ -99,12 +99,18 @@ There are 5 deliverables for this project:
 ### Model Building Steps: 
 
 1. Perform Stepwise Selection to select for features with p-value < 0.05
-            
 2. Build Model with the chosen features with Statsmodels
 3. Fit Model
+
+            - Get intercept
+            
+            - Get coefficients
+            
 4. Test Model
 
-            - Recheck for multicollinearity
+            - Recheck for multicollinearity: calculate variance inflation factor
+            
+            - Recheck for multicollinearity: heatmap
             
             - Recheck for normality
             
@@ -117,6 +123,8 @@ There are 5 deliverables for this project:
 5. Validate Model
 
             - train-test split
+            
+            - Calculate RMSE
             
             - Calculate accuracy percentage
                        
