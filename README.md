@@ -58,8 +58,6 @@ There are 5 deliverables for this project:
             
             - Part IIB: Multivariate Linear Regression with Log Transformed Features
             
-            - Part III: Analysis of Best Model
-            
 2. An organized README.md file that describes the contents of the repository.
 
              - README.md: describes the content and organization of content.
@@ -68,7 +66,6 @@ There are 5 deliverables for this project:
              - Part I: Jupyter notebook
              - Part IIA: Jupyter notebook
              - Part IIB: Jupyter notebook
-             - Part III: Jupyter notebook
              - Presentation pdf
 
 3. A short PowerPoint presentation (delivered as a PDF export) giving a high-level overview of the methodology used and recommendations for non-technical stakeholders. Can be found in the repository or at: 
