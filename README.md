@@ -314,27 +314,27 @@ Results suggest that the following factors can be used to predict the value of t
 
             * Descrease value:
 
-            - 'zip_F' -1.068630974375401
+            - 'zip_F' -1.06
                Interpretation: for every one-unit increase in zip_F, price decreases by 66%
-            - 'zip_H' -0.9086279740309386
+            - 'zip_H' -0.90
               Interpretation: for every one-unit increase in zip_F, price decreases by 60%
-            - 'zip_D' -0.8685523818356543
+            - 'zip_D' -0.86
               Interpretation: for every one-unit increase in zip_D, price decreases by 58%
-            - 'zip_E' -0.6792842324603005
+            - 'zip_E' -0.67
               Interpretation: for every one-unit increase in zip_E, price decreases by 49%
-            - 'cond_2.0' -0.41011476154961723
+            - 'cond_2.0' -0.410
               Interpretation: for every one-unit increase in cond_2.0, price decreases by 34%
 
             * Increase value:
-            - 'sqft_living15_log * zip_C' 0.18
-              Interpretation: for every 1% increase in sqft_lot_log * zip_C, price increases by 0.15%
-            - 'zip_A' 0.15760654513386874
+            - 'sqft_living15_log * zip_C' +0.18
+              Interpretation: for every 1% increase in sqft_lot_log * zip_C, price increases by 0.11%
+            - 'zip_A' +0.15
               Interpretation: for every one-unit increase in zip_A, price increases by 17%
-            - 'base_1.0' 0.3346934408418266
+            - 'base_1.0' +0.33
               Interpretation: for every one-unit increase in base_1.0, price increases by 40%
-            - 'sqft_above_log' 0.4741906557911449
+            - 'sqft_above_log' +0.47
               Interpretation: for every 1% increase in sqft_above_log, price increases by 0.4%
-            - 'water_1.0' 1.376531898043686
+            - 'water_1.0' +1.37
               Interpretation: for every one-unit increase in water_1.0, price increases by 296%
 
 ##  Future Works
