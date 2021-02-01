@@ -151,6 +151,8 @@ There are 5 deliverables for this project:
 
 <img src = '../main/Data & Figures/model_4_residuals_qqplot.png' />
 
+<img src = '../main/Data & Figures/model_4_homoscedasticity_regplot.png' />
+
 <img src = '../main/Data & Figures/model_4_residuals_regplot.png' />
 
 <img src = '../main/Data & Figures/model_4_predictions_regplot.png' />
