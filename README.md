@@ -72,6 +72,8 @@ There are 5 deliverables for this project:
 
 4. A Blog Post which can be found at: 
 
+https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-washington-24bbff9aa8e9
+
 5. A Video Walkthrough of my non-technical presentation, can be found at:
 
 # **Notebook Table of Contents**
