@@ -141,7 +141,19 @@ There are 5 deliverables for this project:
 | 9  | Model 4 | Log(y) + Log(X) + All features + Interactions        | 24.0         | 0.7738199360010017 | 78.35181714237666  | 0.4773545938752356  | 0.46868634013226684 | 0.25819826998164813     | 0.26286050990949894  | 0.2894349267525931  | 0.2835422865721812  | -0.2292681767965224  | P                 | P         | P                |
 | 10 | Model 5 | Log(y) + Log(X) + All features + Interactions + Poly | 28.0         | 0.7597763001594978 | 76.90656423067085  | 0.49169672404915826 | 0.4840785596517417  | 0.2853833651839835      | 0.2907084113541249   | 0.31480578660205333 | 0.30877757250175863 | -0.24344834501143783 | P                 | P         | P                |
 
-## **BEST MODEL:** MODEL 4
+## **BEST MODELS:** MODEL E and MODEL 4
+
+<img src = '../main/Data & Figures/model_4_ols.png' />
+
+<img src = '../main/Data & Figures/model_4_recursive_features_elimination.png' />
+
+<img src = '../main/Data & Figures/model_4_multicollinearity_check.png' />
+
+<img src = '../main/Data & Figures/model_4_residuals_qqplot.png' />
+
+<img src = '../main/Data & Figures/model_4_residuals_regplot.png' />
+
+<img src = '../main/Data & Figures/model_4_predictions_regplot.png' />
 
 ## Summary of Findings
 
@@ -281,6 +293,8 @@ There are 5 deliverables for this project:
             * Older houses tend to have renovation done. This explains why some older houses are scored high in 'grade' and 'condition'
 
 ### **'zipcode'**
+
+<img src = '../main/Data & Figures/zipcat_scatterplot.png' />
 
 <img src = '../main/Data & Figures/location_vs_price_scatterplot.png' />
 
