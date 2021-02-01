@@ -198,6 +198,13 @@ There are 5 deliverables for this project:
             * The higher the square footage of the nearest 15 neighbor houses, the higher the price for a house.
             * This demonstrates that neighborhood/location is a value-adding feature when predict the price of a home.
 
+### **'sqft_living15'**
+
+<img src = '../main/Data & Figures/sqft_lot15_vs_price_lmplot.png' />
+
+            * Similar to 'sqft_lot', 'sqft_lot15' is weakly & positively correlated to 'price'
+            * There is a positive correlation between 'sqft_lot15' and 'price'
+
 ### **'bedrooms'**
 
 <img src = '../main/Data & Figures/bedrooms_vs_price_boxplot.png' />
