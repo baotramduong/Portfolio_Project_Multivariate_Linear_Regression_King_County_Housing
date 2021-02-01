@@ -267,6 +267,8 @@ There are 5 deliverables for this project:
 
 ### **'age'**
 
+<img src = '../main/Data & Figures/yr_built_vs_price_relplot.png' />
+
 <img src = '../main/Data & Figures/age_vs_price_sqft_living_relplot.png' />
 
 <img src = '../main/Data & Figures/age_vs_price_grade_relplot.png' />
