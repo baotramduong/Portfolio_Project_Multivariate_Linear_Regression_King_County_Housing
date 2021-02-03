@@ -334,30 +334,12 @@ Results suggest that the following factors can be used to predict the value of t
 
 **Best Predictive Features:**
 
-            * Descrease value:
-
-            - 'zip_F' -1.06
-               Interpretation: for every one-unit increase in zip_F, price decreases by 66%
-            - 'zip_H' -0.90
-              Interpretation: for every one-unit increase in zip_F, price decreases by 60%
-            - 'zip_D' -0.86
-              Interpretation: for every one-unit increase in zip_D, price decreases by 58%
-            - 'zip_E' -0.67
-              Interpretation: for every one-unit increase in zip_E, price decreases by 49%
-            - 'cond_2.0' -0.410
-              Interpretation: for every one-unit increase in cond_2.0, price decreases by 34%
-
-            * Increase value:
-            - 'sqft_living15_log * zip_C' +0.18
-              Interpretation: for every 1% increase in sqft_lot_log * zip_C, price increases by 0.11%
-            - 'zip_A' +0.15
-              Interpretation: for every one-unit increase in zip_A, price increases by 17%
-            - 'base_1.0' +0.33
-              Interpretation: for every one-unit increase in base_1.0, price increases by 40%
-            - 'sqft_above_log' +0.47
-              Interpretation: for every 1% increase in sqft_above_log, price increases by 0.4%
-            - 'water_1.0' +1.37
-              Interpretation: for every one-unit increase in water_1.0, price increases by 296%
+            - The presence of 'waterfront' is the most positively impactful feature for 'price.' 
+            - Location is also a powerful determining factor for the value of a home.
+            - Other features that add value to a home are: 'sqft_above',  'base_1.0', 'sqft_living15', 'reno_1.0', 'bathrooms', 'cond_5.0', 'age'.
+            - Interactions that have a positive impact on the price are: 'sqft_log * zip_H', 'sqft_above * sqft_living15', 'sqft_lot * bathrooms'.
+            - Features that decrease the value of a home are: 'bedrooms', 'cond_3.0', 'zip_F', 'cond_2.0'.
+            - Interactions that have a negative impact on the price are: 'sqft_above * sqft_lot', 'sqft_lot * age', 'sqft_above * zip_C', and 'sqft_lot * zip_A'
 
 ##  Future Works
 1. Calculate value of the home in price per square foot instead of just price.
