@@ -360,3 +360,18 @@ Results suggest that the following factors can be used to predict the value of t
               Interpretation: for every one-unit increase in water_1.0, price increases by 296%
 
 ##  Future Works
+1. Calculate value of the home in price per square foot instead of just price.
+
+2. Research location in-depth such as:
+* The quality of local schools
+* Employment opportunities
+* What are the neighbors like?
+* Proximity to shopping, entertainment, and recreational centers
+* Proximity to hospitals and other common services?
+* Proximity to highways, utility lines, and public transit
+* Proximity to the nearest major city?
+
+3. How hot (or cold) is the area's real estate market?
+Because the number of other properties for sale in the area and the number of buyers in the market can impact the home value.
+
+4. When is the best time to buy or sell?
