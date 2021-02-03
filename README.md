@@ -143,8 +143,17 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
 | 9  | Model 4 | Log(y) + Log(X) + All features + Interactions        | 24.0         | 0.7738199360010017 | 78.35181714237666  | 0.4773545938752356  | 0.46868634013226684 | 0.25819826998164813     | 0.26286050990949894  | 0.2894349267525931  | 0.2835422865721812  | -0.2292681767965224  | P                 | P         | P                |
 | 10 | Model 5 | Log(y) + Log(X) + All features + Interactions + Poly | 28.0         | 0.7597763001594978 | 76.90656423067085  | 0.49169672404915826 | 0.4840785596517417  | 0.2853833651839835      | 0.2907084113541249   | 0.31480578660205333 | 0.30877757250175863 | -0.24344834501143783 | P                 | P         | P                |
 
-## **BEST MODELS:** MODEL E and MODEL 4
+## **BEST MODELS:** 
 
+            **MODEL 4** Best model in terms of r2, accuracy, RMSE
+            
+<img src = '../main/Data & Figures/model_4_coefficients.png' />
+
+            **MODEL E** Best model in terms of simplicity and interpretability
+
+<img src = '../main/Data & Figures/model_2_coefficients.png' />
+
+## MODEL 4 SUMMARY 
 <img src = '../main/Data & Figures/model_4_ols.png' />
 
 <img src = '../main/Data & Figures/model_4_recursive_features_elimination.png' />
