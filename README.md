@@ -145,13 +145,13 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
 
 ## **BEST MODELS:** 
 
-            **MODEL 4** Best model in terms of r2, accuracy, RMSE
+            MODEL 4 Best model in terms of r2, accuracy, RMSE
             
 <img src = '../main/Data & Figures/model_4_coefficients.png' />
 
-            **MODEL E** Best model in terms of simplicity and interpretability
+            MODEL E Best model in terms of simplicity and interpretability
 
-<img src = '../main/Data & Figures/model_2_coefficients.png' />
+<img src = '../main/Data & Figures/model_E_coefficients.png' />
 
 ## MODEL 4 SUMMARY 
 <img src = '../main/Data & Figures/model_4_ols.png' />
