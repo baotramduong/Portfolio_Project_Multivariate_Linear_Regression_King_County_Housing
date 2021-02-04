@@ -70,6 +70,8 @@ There are 5 deliverables for this project:
 
 3. A short PowerPoint presentation (delivered as a PDF export) giving a high-level overview of the methodology used and recommendations for non-technical stakeholders. Can be found in the repository or at: 
 
+https://github.com/baotramduong/Portfolio_Project_King_County_Housing_Linear_Regression/blob/main/Presentation.pdf
+
 4. A Blog Post which can be found at: 
 
 https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-washington-24bbff9aa8e9
