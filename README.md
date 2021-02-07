@@ -340,6 +340,13 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
 
 Results suggest that the following factors can be used to predict the value of the house:
 
+            * Location is the most important thing and tagging along with it the presence of waterfront. 
+            Home value is also affected by the sale prices of similar homes in the neighborhood that have sold recently.
+            * Square footage of livable space matters and the more beds, baths, and floors your home offers, the more your home is worth.
+            * Renovation with additional basement and living space adds extra boost to the value of the home
+            * You need a condition of 3 and above and grade of 7 and above to have a high value home.
+            * If your house is old, renovation can help but not that much.
+
 **Best Predictive Features:**
 
             - The presence of 'waterfront' is the most positively impactful feature for 'price.' 
@@ -355,9 +362,7 @@ Results suggest that the following factors can be used to predict the value of t
 2. Research location in-depth such as (openhome.com, 2021):
 * The quality of local schools
 * Employment opportunities
-* What are the neighbors like
-* Proximity to shopping, entertainment, and recreational centers
-* Proximity to hospitals and other common services
+* Proximity to shopping, entertainment, and common services such as hospitals
 * Proximity to highways, utility lines, and public transit
 * Proximity to the nearest major city
 
