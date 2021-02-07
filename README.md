@@ -75,7 +75,7 @@ https://github.com/baotramduong/Portfolio_Project_King_County_Housing_Linear_Reg
 
 4. A Blog Post which can be found at: 
 
-https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-washington-24bbff9aa8e9
+https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-washington-5d8798345543
 
 5. A Video Walkthrough of my non-technical presentation, can be found at:
 
