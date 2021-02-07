@@ -37,15 +37,16 @@ After initial EDA to understand the dataset, house prices will be predicted give
 
 ## Business Statement
 
-**Q1. What features adds value to a home?** 
+**Q1. What are the most predictive features to predict the price of a home?** 
 
-**Q2. What features decreases value of a home?** 
+**Q2. How to increase the value of a home?** 
 
-**Q3. What features are nice to have but have no effect on the values of a home?** 
+**Q3. How do age and condition affect the value of a home?** 
 
-**Q4. How does location affect the price of a home?** 
-
-**Q5. What are the most predictive features to predict the price of a home?** 
+## Methodology
+(1) Perform exploratory data analysis to understand the insight of the data. 
+(2) Create the best prediction model with highest accuracy that is able to accurately estimate the price of the house given the features.
+**Outcome:** By cross-referencing our initial EDA and the model coefficients, we not only help you to predict the price of house accurately but also give you insights on what to look for when buying a new home or what to do to improve your current home’s value.
 
 ## The Deliverables
 There are 5 deliverables for this project:
@@ -97,7 +98,7 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
 
 ## Part IIA + B: Machine Learning
 
-### Model Building Steps: 
+### Methodology:
 
 1. Perform Stepwise Selection to select for features with p-value < 0.05
 2. Build Model with the chosen features with Statsmodels
@@ -178,13 +179,11 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
 
             * 'sqft_living' is strongly & positively correlated with target 'price'.
             * The higher the square footage of living space, the higher the price.
-            * 4,500 sqft guarantees above price median.
 
 ### **'sqft_lot'**
 
 <img src = '../main/Data & Figures/sqft_lot_vs_price_lmplot.png' />
 
-            * 'sqft_lot' ranges from 520 - 1,625,359 sqft with majority of houses <50,000 sqft_lot
             * 'sqft_lot' is weakly & positively correlated to 'price'
             * Higher 'sqft_lot' does not equal to higher price
 
@@ -194,14 +193,6 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
 
             * 'sqft_above' is strongly & positively correlated to 'price'
             * The higher the 'sqft_above' the higher the price
-
-### **'basement'**
-
-<img src = '../main/Data & Figures/basement_vs_price_catplot.png' />
-
-            * There are more houses without a basement than with a basement.
-            * The presence of a basement increases the price of a house but not always: there are houses without a basement still make to Above Median price and there are houses with a basement stay behind in Below Median price.
-            * 'basement' is weakly & positively correlated to 'price'.
 
 ### **'sqft_living15'**
 
@@ -227,8 +218,6 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
             * 'bedrooms' is positively correlated with 'price'.
             * Higher number of bedrooms stops mattering if 'sqft_living' or 'sqft_above' is small.
             * Too many bedrooms to crowd square footage of the home will have less value.
-            * 3 - 5 bedrooms is ideal for houses > 2,500 sqft of living space.
-            * 1 - 2 bedrooms is idead for houses < 2,500 sqft of living space.
 
 ### **'bathrooms'**
 
@@ -240,7 +229,41 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
             * Higher number of bathrooms does not matter if 'sqft_living' or 'sqft_above' is low
             * Too many bathrooms crowding square footage of the home will have less value.
             * 'Penalty' of having too many 'bathrooms' is less severe than having too many 'bedrooms'
+### **'floors'**
 
+<img src = '../main/Data & Figures/floors_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/floors_vs_price_sqft_living_relplot.png' />
+
+            * 'floors' is positively correlated to 'price'.
+            * Higher number of floors can add value to houses that have smaller square footage.
+            * Higher number of floors doesn't add more value to houses that have big square footage.
+            * Higher number of floors with small square footage decreases the value of a home.
+            * 2.5 floors is ideal to have, more than that is unnecessary.
+
+### **'basement'**
+
+<img src = '../main/Data & Figures/basement_vs_price_catplot.png' />
+
+            * There are more houses without a basement than with a basement.
+            * The presence of a basement increases the price of a house but not always: there are houses without a basement still make to Above Median price and there are houses with a basement stay behind in Below Median price.
+            * 'basement' is weakly & positively correlated to 'price'.
+
+### **'waterfront'**
+
+<img src = '../main/Data & Figures/waterfront_vs_price_boxplot.png' />
+
+<img src = '../main/Data & Figures/waterfront_vs_price_catplot.png' />
+
+<img src = '../main/Data & Figures/sqft_above_waterfront_vs_price_relplot.png' />
+
+<img src = '../main/Data & Figures/zipcat_waterfront_vs_price_relplot.png' />
+
+            * 'waterfront' is positively correlated to 'price'.
+            * There are houses without a waterfront make it into Above Median price but with waterfront, a house is guaranteed to be Above Median.
+            * A house with waterfront is valued more highly compared to other houses with the same square footage but without a waterfront.
+            * In all zipcode area, the most valued houses have waterfront views.
+            
 ### **'grade'**
 
 <img src = '../main/Data & Figures/grade_vs_price_boxplot.png' />
@@ -252,27 +275,6 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
             * To get above the price median, a home needs to be at least grade 10.
             * There is also the 'sqft_living' and 'sqft_above' effect: the higher the square footage, the higher the grade.
             * Smaller square footage houses need at least grade 7 to get past the price median.
-
-### **'floors'**
-
-<img src = '../main/Data & Figures/floors_vs_price_boxplot.png' />
-
-<img src = '../main/Data & Figures/floors_vs_price_sqft_living_relplot.png' />
-
-            * 'floors' is positively correlated to 'price'.
-            * Higher number of floors can add value to houses that have smaller square footage.
-            * Higher number of floors doesn't add more value to houses that have big square footage.
-            * Higher number of floors with small square footage decreases the value of a home.
-            * 2 floors is ideal to have, more than that is unnecessary.
-
-### **'waterfront'**
-
-<img src = '../main/Data & Figures/waterfront_vs_price_boxplot.png' />
-
-<img src = '../main/Data & Figures/waterfront_vs_price_catplot.png' />
-
-            * 'waterfront' is positively correlated to 'price'.
-            * There are houses without a waterfront make it into Above Median price but with waterfront, a house is guaranteed to be Above Median.
 
 ### **'condition'**
 
@@ -301,20 +303,24 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
             * The higher the 'age', the lower the 'price'.
             * With respect to 'sqft_living', 'age' does not matter much. Higher square footage is still valued at higher price.
             * Older houses tend to have lower 'grade'.
-            * Those older houses with higher 'grade' of 10 and above is still valued equally high as newer houses with the same 'grade'.
-            * New houses tend to score higher 'grade' of 10 and above.
-            * Older houses with great 'condition' is valued equally high as new houses with average 'condition'.
+            * New houses tend to score higher 'grade' of 10 and above. New houses tend to score higher 'grade' of 10 and above. Newer houses are graded higher due 
+            to better and more up to date material quality, architectural design, and construction. This includes critical parts of the house, like plumbing, 
+            electrical, the roof, and newer appliances.
+            * When a house is old, even if it is in good and very good condition 4, and 5, it is still valued less than new houses with average condition of 3.
             * New houses is largely scored only an average 'condition'.
 
 ### **'renovation'**
 
 <img src = '../main/Data & Figures/renovation_vs_price_boxplot.png' />
 
+<img src = '../main/Data & Figures/sqft_above_vs_price_renovation_relplot.png' />
+
 <img src = '../main/Data & Figures/age_vs_price_renovation_relplot.png' />
 
             * Renovation is weakly and positively correlated with 'price'.
             * There are houses without renovation is still Above Median price and there are houses with renovation is still Below Median price.
             * Older houses tend to have renovation done. This explains why some older houses are scored high in 'grade' and 'condition'
+            * Although renovation can add values to older houses, the age of the house is a more impactful feature than any kind of adds-on.
 
 ### **'zipcode'**
 
