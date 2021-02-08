@@ -202,7 +202,7 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
             * The higher the square footage of the nearest 15 neighbor houses, the higher the price for a house.
             * This demonstrates that neighborhood/location is a value-adding feature when predict the price of a home.
 
-### **'sqft_living15'**
+### **'sqft_lot15'**
 
 <img src = '../main/Data & Figures/sqft_lot15_vs_price_lmplot.png' />
 
