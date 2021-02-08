@@ -326,7 +326,7 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
 
 <img src = '../main/Data & Figures/zipcat_scatterplot.png' />
 
-<img src = '../main/Data & Figures/location_vs_price_scatterplot.png' />
+<img src = '../main/Data & Figures/location_vs_price_sqft_living15_scatterplot.png' />
 
             * We see that properties that are 1.6M+ are clustered and increase in price as they go toward the center. 
             * The yellow region of C which includes Bellevue, Mercer Island, Newcastle is the region with the highest values. 
@@ -344,7 +344,7 @@ Results suggest that the following factors can be used to predict the value of t
             Home value is also affected by the sale prices of similar homes in the neighborhood that have sold recently.
             * Square footage of livable space matters and the more beds, baths, and floors your home offers, the more your home is worth.
             * Renovation with additional basement and living space adds extra boost to the value of the home
-            * You need a condition of 3 and above and grade of 7 and above to have a high value home.
+            * You need a condition of 3 and above and grade of 8 and above to have a high value home.
             * If your house is old, renovation can help but not that much.
 
 **Best Predictive Features:**
