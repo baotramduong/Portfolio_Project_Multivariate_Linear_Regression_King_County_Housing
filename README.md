@@ -79,6 +79,8 @@ https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-w
 
 5. A Video Walkthrough of my non-technical presentation, can be found at:
 
+https://youtu.be/gSFTlAzCyJU
+
 # **Notebook Table of Contents**
 
 ## Part I: Data Scrubbing and Preparation
