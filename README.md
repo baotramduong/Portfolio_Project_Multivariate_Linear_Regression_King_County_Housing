@@ -352,10 +352,11 @@ Results suggest that the following factors can be used to predict the value of t
 
             - The presence of 'waterfront' is the most positively impactful feature for 'price.' 
             - Location is also a powerful determining factor for the value of a home.
-            - Other features that add value to a home are: 'sqft_above',  'base_1.0', 'sqft_living15', 'reno_1.0', 'bathrooms', 'cond_5.0', 'age'.
-            - Interactions that have a positive impact on the price are: 'sqft_log * zip_H', 'sqft_above * sqft_living15', 'sqft_lot * bathrooms'.
-            - Features that decrease the value of a home are: 'bedrooms', 'cond_3.0', 'zip_F', 'cond_2.0'.
-            - Interactions that have a negative impact on the price are: 'sqft_above * sqft_lot', 'sqft_lot * age', 'sqft_above * zip_C', and 'sqft_lot * zip_A'
+            - Other features that add value to a home are: ‘sqft_above’, ‘base_1.0’, ‘bathrooms’, ‘reno_1.0’, ‘age’, ‘cond_5.0’, ‘floors’, and ‘sqft_lot’.
+            - Interactions that have a positive impact on the price are: 'sqft_above * zip_A', 'sqft_living15 * age'.
+            - Features that decrease the value of a home are: ‘bedrooms’, ‘cond_3.0’, ‘zip_E’, ‘cond_2.0’, 'zip_H', 'zip_D', 'zip_F'.
+            - Interactions that have a negative impact on the price are: 'sqft_above * sqft_living15'.
+            - RFE ranks location zipcode area ‘zip_F’, ‘zip_A’, ‘zip_D’, ‘zip_H’, 'zip_E', 'zip_C' and features such as ‘sqft_above’, ‘base_1.0’, ‘water_1.0’, ‘cond_2.0’ as top 10 most predictive features for Model Fa.
 
 ##  Future Works
 1. Calculate value of the home in price per square foot instead of just price.
