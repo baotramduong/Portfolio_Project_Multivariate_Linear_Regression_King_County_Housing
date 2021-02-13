@@ -150,28 +150,25 @@ https://youtu.be/gSFTlAzCyJU
 
 ## **BEST MODELS:** 
 
-            MODEL 4 Best model in terms of r2, accuracy, RMSE
+            MODEL Fa Best model in terms of r2, accuracy, RMSE, interpretability
             
-<img src = '../main/Data & Figures/model_4_coefficients.png' />
+<img src = '../main/Data & Figures/model_Fa_coefficients.png' />
 
-            MODEL E Best model in terms of simplicity and interpretability
 
-<img src = '../main/Data & Figures/model_E_coefficients.png' />
+## MODEL Fa SUMMARY 
+<img src = '../main/Data & Figures/model_Fa_ols.png' />
 
-## MODEL 4 SUMMARY 
-<img src = '../main/Data & Figures/model_4_ols.png' />
+<img src = '../main/Data & Figures/model_Fa_recursive_features_elimination.png' />
 
-<img src = '../main/Data & Figures/model_4_recursive_features_elimination.png' />
+<img src = '../main/Data & Figures/model_Fa_multicollinearity_check.png' />
 
-<img src = '../main/Data & Figures/model_4_multicollinearity_check.png' />
+<img src = '../main/Data & Figures/model_Fa_residuals_qqplot.png' />
 
-<img src = '../main/Data & Figures/model_4_residuals_qqplot.png' />
+<img src = '../main/Data & Figures/model_Fa_homoscedasticity_regplot.png' />
 
-<img src = '../main/Data & Figures/model_4_homoscedasticity_regplot.png' />
+<img src = '../main/Data & Figures/model_Fa_residuals_regplot.png' />
 
-<img src = '../main/Data & Figures/model_4_residuals_regplot.png' />
-
-<img src = '../main/Data & Figures/model_4_predictions_regplot.png' />
+<img src = '../main/Data & Figures/model_Fa_predictions_regplot.png' />
 
 ## Summary of Findings
 
