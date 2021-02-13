@@ -152,7 +152,7 @@ https://youtu.be/gSFTlAzCyJU
 
             - Failed models: Model A, Model B, Model C, Model D failed assumption of normality.
             - The version-a and version-b of Model E and Model F are the same. 
-            The only difference is in version-a we use heatmap to detect collinearity and in b-version, we go a step further and drop VIF > 10. 
+            The only difference is in version-a we use heatmap to detect collinearity and in version-b, we go a step further and drop VIF > 10. 
             However, while we sacrificed many cool features, r2 does not improve, even gets worse (slightly). Our decision is to stick with version-a.
             - Model 1 — Model 5: are models with both X and y getting log-transformed. 
             While their performance just as good as the chosen best Model F.a, because they lost interpretability due to log-transformation, they are not chosen.
