@@ -150,6 +150,10 @@ https://youtu.be/gSFTlAzCyJU
 |11    |Model 4 |Log(y) + Log(X) + All features + Interactions       |25.0        |0.7748310602342096|78.3928942739318  |0.4761399927371877 |0.46824146602914   |0.259501528718508    |0.26352861733459715 |0.29513096220329893|0.28872272383578945|-0.4774018082422299|P                |P        |P               |
 |12    |Model 5 |Log(y) + Log(X) + All features + Interactions + Poly|29.0        |0.7605671677121786|76.92316568412983 |0.49073617766945715|0.48390453070721273|0.28882957180857244  |0.2935837874130953  |0.3201348671073857 |0.31360685553925366|-0.4922026179156365|P                |P        |P               |
 
+            - Failed models: Model A, Model B, Model C, Model D failed assumption of normality.
+            - The version-a and version-b of Model Eand Model Fare the same. The only difference is in version-a we use heatmap to detect collinearity and in b-version, we go a step further and drop VIF > 10. However, while we sacrificed many cool features, r2 does not improve, even gets worse (slightly). Our decision is to stick with version-a.
+            - Model 1 — Model 5:are models with both X and y getting log-transformed. While their performance just as good as the chosen best Model F.a, because they lost interpretability due to log-transformation, they are not chosen.
+
 ## **BEST MODELS:** 
 
             MODEL Fa Best model in terms of r2, accuracy, RMSE, interpretability
