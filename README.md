@@ -379,3 +379,10 @@ Results suggest that the following factors can be used to predict the value of t
 Because the number of other properties for sale in the area and the number of buyers in the market can impact the home value.
 
 4. When is the best time to buy or sell?
+
+## Reference
+8 critical factors that influence a home’s value. (2019, September 19). Retrieved January 17, 2021, from https://www.opendoor.com/w/blog/factors-that-influence-home-value
+
+Ford, C. (2018, August 17). Interpreting Log Transformations in a Linear Model | University of Virginia Library Research Data Services + Sciences. University of Virginia Library. https://data.library.virginia.edu/interpreting-log-transformations-in-a-linear-model/
+
+Lynkova, D. (2021, February 4). 69+ Real Estate Statistics, Trends & Fun Facts in 2020. Review42. https://review42.com/resources/real-estate-statistics/
