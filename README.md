@@ -1,6 +1,11 @@
 # Multivariate Linear Regression Machine Learning: 
 # King County Housing
 
+## Blog
+
+[Medium Blog](https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-washington-5d8798345543 'Blog')
+
+## Introduction
 This project was completed as part of Flatiron School's Data Science Bootcamp (November 2020)
 
 King County is located in the U.S. state of Washington. The population was 2,252,782 in the 2019 census estimate, making it the most populous county in Washington, and the 12th-most populous in the United States. The county seat is Seattle, also the state's most populous city.
@@ -47,41 +52,6 @@ After initial EDA to understand the dataset, house prices will be predicted give
 (1) Perform exploratory data analysis to understand the insight of the data. 
 (2) Create the best prediction model with highest accuracy that is able to accurately estimate the price of the house given the features.
 **Outcome:** By cross-referencing our initial EDA and the model coefficients, we not only help you to predict the price of house accurately but also give you insights on what to look for when buying a new home or what to do to improve your current home’s value.
-
-## The Deliverables
-There are 5 deliverables for this project:
-
-1. A well documented Jupyter Notebook containing any code and comments explaining it.
-
-            - Part I: Data cleaning & preparation from provided data
-            
-            - Part IIA: Multivariate Linear Regression
-            
-            - Part IIB: Multivariate Linear Regression with Log Transformed Features
-            
-2. An organized README.md file that describes the contents of the repository.
-
-             - README.md: describes the content and organization of content.
-             - module1_project_rubric.pdf: describes requirements for this project.
-             - Data & Figures folder: contains all provided data from Flatiron and all figures for visualization.
-             - Part I: Jupyter notebook
-             - Part IIA: Jupyter notebook
-             - Part IIB: Jupyter notebook
-             - Presentation pdf
-
-3. A short PowerPoint presentation (delivered as a PDF export) giving a high-level overview of the methodology used and recommendations for non-technical stakeholders. Can be found in the repository or at: 
-
-https://github.com/baotramduong/Portfolio_Project_King_County_Housing_Linear_Regression/blob/main/Presentation.pdf
-
-4. A Blog Post which can be found at: 
-
-https://baotramduong.medium.com/data-science-vs-the-real-estate-in-king-county-washington-5d8798345543
-
-5. A Video Walkthrough of my non-technical presentation, can be found at:
-
-https://youtu.be/gSFTlAzCyJU
-
-# **Notebook Table of Contents**
 
 ## Part I: Data Scrubbing and Preparation
 
